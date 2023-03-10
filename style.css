@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  line-height: 1.4;
+  font-weight: 300px;
+}
+.hero_section {
+  background-image: url(images/developer.png);
+  min-height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.text_container {
+  position: relative;
+  width: 900px;
+  height: 84px;
+  margin-left: 420px;
+  letter-spacing: 2px;
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 45px;
+  line-height: 76px;
+
+  color: rgba(255, 255, 255, 1);
+}
+.text_container h1 {
+  margin-top: 20px;
+  font-size: 65px;
+  font-style: normal;
+  font-weight: 700;
+  font-family: "plus Jakarta Sans";
+  text-align: justify;
+}
+.text_container h2 {
+  margin-top: 40px;
+  font-size: 65px;
+  font-style: normal;
+  font-weight: 700;
+  font-family: "plus Jakarta Sans";
+  text-align: justify;
+}
+.text_container .title_small {
+  margin-top: 40px;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  font-family: "plus Jakarta Sans";
+}
+.black_box {
+  background-color: black;
+  padding: 40px;
+  position: relative;
+}
+.black_box h2 {
+  font-family: "plus jakarta sans";
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 500;
+  color: white;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  letter-spacing: 2px;
+}
+.black_box h2 span {
+  font-size: 30px;
+}
